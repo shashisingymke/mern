@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    color: white;
+    background-color: rgb(56, 21, 235);
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+ul li{
+    background-color: hotpink;
+    list-style-type: none;
+    display: inline;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+ul li:hover{
+    background-color: rgb(191, 159, 250);
+    padding: 12px 10px;
+    cursor: pointer;
+    margin: 10px;
+    color: wheat;
+    transition: 0.2s;
+}
+
+.nav2{
+    list-style: none;
+    text-decoration: none;
+}
+
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
